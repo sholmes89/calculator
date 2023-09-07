@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div class="screen-sub"></div>
+            <div class="screen-main"></div>
+        </div>
+        <div class="buttons">
+            <!--row 1-->
+            <div class="cell">
+                <button class="btn btn-green btn-clear">AC</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-green btn-del" data-key="Backspace">DEL</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-green btn-pm">&plusmn;</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-orange btn-op" data-key="/">&divide;</button>
+            </div>
+            <!--row 2-->
+            <div class="cell">
+                <button class="btn btn-num" data-key="7">7</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-num" data-key="8">8</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-num" data-key="9">9</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-orange btn-op" data-key="*">&times;</button>
+            </div>
+            <!-- row 3-->
+            <div class="cell">
+                <button class="btn btn-num" data-key="4">4</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-num" data-key="5">5</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-num" data-key="6">6</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-orange btn-op" data-key="-">&minus;</button>
+            </div>
+            <!-- row 4-->
+            <div class="cell">
+                <button class="btn btn-num" data-key="1">1</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-num" data-key="2">2</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-num" data-key="3">3</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-orange btn-op" data-key="+">&plus;</button>
+            </div>
+            <!-- row 5-->
+            <div class="cell">
+                <button class="btn btn-num" data-key="0">0</button>
+            </div>
+            <div class="cell">
+                <button class="btn btn-dec" data-key=".">.</button>
+            </div>
+            <div class="cell-wide">
+                <button class="btn btn-orange btn-equals" data-key="=">&equals;</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
